@@ -21,10 +21,10 @@ A blockchain based system which records the temperature of a shipment during tra
 
 
 ## Architecture diagram :
-![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/Architeure%20diagram.png)
+![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/Architeure%20diagram.png)
 
 ## Network Diagram-Blockchain Network setup details:
-![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/NetworkDetails.png)
+![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/NetworkDetails.png)
 
 ## Usage
  Pull the docker images 1.4 and place bin directory into network folder. <br />
