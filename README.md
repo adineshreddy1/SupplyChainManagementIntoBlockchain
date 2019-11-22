@@ -17,7 +17,7 @@
 A blockchain based solution which records the temperature of a shipment and gives the status of the
 shipment to Seller, Buyer. <br />
 
-A blockchain based system which records the temperature of a shipment during transport. The temperature should not exceed 20°C and buyer can either accept or reject the shipment based on the temperature reading.If the temperatue exceeds 20°C for 3 times with time interval of 10 minutes.It is going to REJECT FROM BUYER.
+A blockchain based system which records the temperature,location and other paramaters of a shipment during transport. Depending upon our requirements of tracing of the product , we can keep them into blockchain for tracing the location,status, time,temperature and others.
 
 
 ## Architecture diagram :
@@ -40,7 +40,7 @@ A blockchain based system which records the temperature of a shipment during tra
 
 ## Postman Results:
  ### RequestLogistic:
- Logistic transfer flow starts from  here.The buyer who need to get some product from seller, will request for the products with id,type,Buyerid,BuyerLocation,Sellerid,SellerLocation,status will be automatically changed to "Requested",as it is with With seller (store)
+ Generally Logistic transfer flow starts from the buyer who need to get some product from seller, will request for the products with id,type,Buyerid,BuyerLocation,Sellerid,SellerLocation,status will. The seller has to accept the request and logistics will come into picture who have to transport the goods from  seller to buyer.
  #### Postman for generating transaction id
  ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/RequestLogistics%20Postman.png)
  
@@ -54,7 +54,7 @@ A blockchain based system which records the temperature of a shipment during tra
 
  # TransitLogistics:
  
- In this phase, logistics will be transported from seller to buyer and the same time blockchain will read the temperature of the logistics for every 10 Minutes and Status will change from "Requested" to "In-Transit"
+ In this phase, logistics will be transported from seller to buyer and the same time blockchain will read the location,status, time,temperature and othersof the products for a fixed time period either from GPS/IOT and updates the details into blockchain 
   #### Postman for  TransitLogistics id
  ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/TransitLogist_postman.png)
  
@@ -70,8 +70,7 @@ A blockchain based system which records the temperature of a shipment during tra
  
  
  # DeliveryLogistics:
- In this phase,logistics will delivery the product to the buyer.Depending  on the temperature conditions like if temp exceeds more than 20°C he can either accept or rejected from the buyer.Here in this case if the temp exceeds more than 20°C for 3 times with in time interval of 10 minutes , it will be Rejected from buyer or else will be Accepted by buyer.
-  
+ In this phase,logistics will delivery the product to the buyer.
   #### Postman for  DeliveryLogistics transction  id
  ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/DeliveryLogistic_postman.png)
  
