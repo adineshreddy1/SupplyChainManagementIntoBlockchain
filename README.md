@@ -42,29 +42,29 @@ A blockchain based system which records the temperature,location and other param
  ### RequestLogistic:
  Generally Logistic transfer flow starts from the buyer who need to get some product from seller, will request for the products with id,type,Buyerid,BuyerLocation,Sellerid,SellerLocation,status will. The seller has to accept the request and logistics will come into picture who have to transport the goods from  seller to buyer.
  #### Postman for generating transaction id
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/RequestLogistics%20Postman.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/RequestLogistics%20Postman.png)
  
  #### console with transaction id
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/RequestLogistic%20consolewith%20txid.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/RequestLogistic%20consolewith%20txid.png)
  #### Postman for  transaction id
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/RequestLogistics_postman_txid.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/RequestLogistics_postman_txid.png)
  
   #### Couchb with transaction id
-![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/RequestLogistic%20coouchdb%20txid.png)
+![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/RequestLogistic%20coouchdb%20txid.png)
 
  # TransitLogistics:
  
  In this phase, logistics will be transported from seller to buyer and the same time blockchain will read the location,status, time,temperature and othersof the products for a fixed time period either from GPS/IOT and updates the details into blockchain 
   #### Postman for  TransitLogistics id
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/TransitLogist_postman.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/TransitLogist_postman.png)
  
  #### console with TransitLogistics transaction id
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/TransitLogistci_console_txid.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/TransitLogistci_console_txid.png)
  #### Postman for TransitLogistics  transaction id
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/TransitLogistic_Postman_txid.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/TransitLogistic_Postman_txid.png)
  
   #### Couchb with  TransitLogistics transaction id
-![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/TransitLogistic_couchdb_Tx.png)
+![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/TransitLogistic_couchdb_Tx.png)
  
  
  
@@ -72,36 +72,36 @@ A blockchain based system which records the temperature,location and other param
  # DeliveryLogistics:
  In this phase,logistics will delivery the product to the buyer.
   #### Postman for  DeliveryLogistics transction  id
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/DeliveryLogistic_postman.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/DeliveryLogistic_postman.png)
  
  #### console with DeliveryLogistics transaction id
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/DeliveryLogistic_txid_console.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/DeliveryLogistic_txid_console.png)
  #### Postman for DeliveryLogistics  transaction id
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/DeliveryLogistic_Consolse_txid_postman.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/DeliveryLogistic_Consolse_txid_postman.png)
  
   #### Couchb with  DeliveryLogistics transaction id
-![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/DeliveryLogistic_REJECTEDSTATUS_couchdb.png)
+![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/DeliveryLogistic_REJECTEDSTATUS_couchdb.png)
  
  
  # GetAllProducts:
  Get all the Product details within the blockchain
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/GetAllProducts.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/GetAllProducts.png)
  
  
 
  # QueryProduct:
  Get the product details of a particular product.
  ## Console Results
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/QueryNAme_console.png)
+ ![alt text]https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/QueryNAme_console.png)
  ## Postman Results
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/QuerywithName_postman.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/QuerywithName_postman.png)
  
  
  # GetTransactionHistoryForKey:
  Get all the transactions for a particular logistics product id like request logistic,transitlogistic and deliveryof logistics of the product.
  
   ## Console Results
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/GetTxHistory_Console.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/GetTxHistory_Console.png)
 
  ## Postman Results
  ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/GetTxHistory_Postman.png)
