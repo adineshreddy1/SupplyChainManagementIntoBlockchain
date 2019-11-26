@@ -104,7 +104,7 @@ A blockchain based system which records the temperature,location and other param
  ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/GetTxHistory_Console.png)
 
  ## Postman Results
- ![alt text](https://github.com/adineshreddy1/Assignment2/blob/master/screenshots/GetTxHistory_Postman.png)
+ ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/GetTxHistory_Postman.png)
 
 
 
