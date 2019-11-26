@@ -1,4 +1,4 @@
-# # Logistics in Blockchain
+# # SupplyChain Management Into Blockchain
 
 
 [![Node.js](https://img.shields.io/badge/Node.js-10.15.3-brightgreen)](https://nodejs.org/)
@@ -14,8 +14,8 @@
 
 ## Description/Summary
 
-A blockchain based solution which records the temperature of a shipment and gives the status of the
-shipment to Seller, Buyer. <br />
+A blockchain based solution which records the temperature,location,status of a shipment product and gives the status of the
+shipment to Seller,Buyer and logistics. <br />
 
 A blockchain based system which records the temperature,location and other paramaters of a shipment during transport. Depending upon our requirements of tracing of the product , we can keep them into blockchain for tracing the location,status, time,temperature and others.
 
