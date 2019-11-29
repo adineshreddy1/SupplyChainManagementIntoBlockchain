@@ -17,8 +17,7 @@
 A blockchain based solution which records the temperature,location,status of a shipment/consignment  and gives the details  of the
 consignment to Seller,Buyer and logistics. <br />
 
-A blockchain based system which records the temperature,location and other paramaters of a shipment/consignment during shipment. 
-Depending upon our requirements for tracking   the consignment , we can keep those details into blockchain such as  location,status, time,temperature and others.
+Depending upon our requirements for tracking  the consignment , we can store those details such as location,status, time,temperature and others into blockchain.
 
 ## Architecture diagram :
 ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/Architeure%20diagram.png)
@@ -40,7 +39,8 @@ Depending upon our requirements for tracking   the consignment , we can keep tho
 
 ## Postman Results:
  ### RequestLogistic:
- Generally Logistic transfer flow starts from the buyer who need to get some product from seller, will request for the products with id,type,Buyerid,BuyerLocation,Sellerid,SellerLocation,status will. The seller has to accept the request and logistics will come into picture who have to transport the goods from  seller to buyer.
+ Generally Logistic transfer flow starts from the buyer who need to get some product/consignment from seller, will request for the products/consignment with id,type,Buyerid,BuyerLocation,Sellerid,SellerLocation,status . The seller has to accept the request and logistics will come into picture who have to transport the goods/consignment from  seller to buyer.
+ 
  #### Postman for generating transaction id
  ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/RequestLogistics%20Postman.png)
  
@@ -54,7 +54,8 @@ Depending upon our requirements for tracking   the consignment , we can keep tho
 
  # TransitLogistics:
  
- In this phase, logistics will be transported from seller to buyer and the same time blockchain will read the location,status, time,temperature and othersof the products for a fixed time period either from GPS/IOT and updates the details into blockchain 
+ In this phase, logistics will be transported from seller to buyer and details like location,status,time,temperature,etc., of the products/consignment will be getting from GPS/IOT devices attached to consignment and stores  the details into blockchain.
+ 
   #### Postman for  TransitLogistics id
  ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/TransitLogist_postman.png)
  
@@ -70,7 +71,8 @@ Depending upon our requirements for tracking   the consignment , we can keep tho
  
  
  # DeliveryLogistics:
- In this phase,logistics will delivery the product to the buyer.
+ In this phase,logistics will delivery the product/consignment to the buyer.
+ 
   #### Postman for  DeliveryLogistics transction  id
  ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/screenshots/DeliveryLogistic_postman.png)
  
