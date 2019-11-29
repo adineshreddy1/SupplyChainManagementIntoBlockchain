@@ -14,11 +14,11 @@
 
 ## Description/Summary
 
-A blockchain based solution which records the temperature,location,status of a shipment product and gives the status of the
-shipment to Seller,Buyer and logistics. <br />
+A blockchain based solution which records the temperature,location,status of a shipment/consignment  and gives the details  of the
+consignment to Seller,Buyer and logistics. <br />
 
-A blockchain based system which records the temperature,location and other paramaters of a shipment during transport. Depending upon our requirements of tracing of the product , we can keep them into blockchain for tracing the location,status, time,temperature and others.
-
+A blockchain based system which records the temperature,location and other paramaters of a shipment/consignment during shipment. 
+Depending upon our requirements for tracking   the consignment , we can keep those details into blockchain such as  location,status, time,temperature and others.
 
 ## Architecture diagram :
 ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/Architeure%20diagram.png)
