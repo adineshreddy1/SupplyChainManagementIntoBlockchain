@@ -8,6 +8,8 @@
 
 ## Prerequisites For Hyperledger Fabric-1.4
 - Hyperledger Fabric 1.4 Prerequisites https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html
+## Configured with Hyperledger Explorer
+## Configured with Grafana and Prometheus
 
 ## Dependencies of  Hyperledger Fabric-1.4
 - Pulling Docker images from Dockethub/hyperledgerfabric https://hyperledger-fabric.readthedocs.io/en/release-1.4/install.html
