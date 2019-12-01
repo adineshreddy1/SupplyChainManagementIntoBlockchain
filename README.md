@@ -22,7 +22,6 @@ consignment to Seller,Buyer and logistics. <br />
 Depending upon our requirements for tracking  the consignment , we can store those details such as location,status, time,temperature and others into blockchain.
 
 ## Architecture diagram :
-![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/Architeure%20diagram.png)
 
 ## Network Diagram-Blockchain Network setup details:
 ![alt text](https://github.com/adineshreddy1/LogisticsIntoBlockchain/blob/master/NetworkDetails.png)
